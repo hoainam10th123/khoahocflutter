@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pause">Pause</string>
+    <!-- Movie -->
+    <eat-comment />
+    <string name="play">Play</string>
+    <string name="fast_forward">Fast forward</string>
+    <string name="fast_rewind">Fast rewind</string>
+    <string name="minimize">Minimize</string>
+    <string name="explanation_movie"><![CDATA[
+    This sample demonstrates basic usage of Picture-in-Picture mode for handheld devices.
+    The sample plays a video. The video keeps on playing when the app is turned in to
+    Picture-in-Picture mode. On Picture-in-Picture screen, the app shows an action item to pause or
+    resume the video.\n\n
+    Movie: (c) copyright 2008, Blender Foundation. See https://peach.blender.org/.
+    ]]></string>
+    <string name="switch_custom">Switch to custom actions example</string>
+    <string name="title_bigbuckbunny">Big Buck Bunny</string>
+</resources>

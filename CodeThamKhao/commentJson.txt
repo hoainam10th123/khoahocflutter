@@ -1,0 +1,35 @@
+{
+    "totalPages": 3,
+    "pageNumber": 1,
+    "pageSize": 5,
+    "count": 11,
+    "data": [
+        {
+            "id": 1,
+            "noiDung": "123",
+            "created": "2022-09-27T19:40:44.3851726",
+            "userId": "802115b3-cb6e-449b-b277-780ee3458935",
+            "displayName": "Nguyễn Hoài Nam",
+            "userImageUrl": "http://10.0.2.2:5291/images/post2.jpg",
+            "postId": 23
+        },
+        {
+            "id": 2,
+            "noiDung": "namnguyen test",
+            "created": "2022-09-27T19:45:31.3661456",
+            "userId": "802115b3-cb6e-449b-b277-780ee3458935",
+            "displayName": "Nguyễn Hoài Nam",
+            "userImageUrl": "http://10.0.2.2:5291/images/post2.jpg",
+            "postId": 23
+        },
+        {
+            "id": 3,
+            "noiDung": "abc dfefffff",
+            "created": "2022-09-27T19:45:44.6620744",
+            "userId": "802115b3-cb6e-449b-b277-780ee3458935",
+            "displayName": "Nguyễn Hoài Nam",
+            "userImageUrl": "http://10.0.2.2:5291/images/post2.jpg",
+            "postId": 23
+        }
+    ]
+}

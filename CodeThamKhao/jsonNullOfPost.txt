@@ -1,0 +1,58 @@
+{
+    "totalPages": 5,
+    "pageNumber": 5,
+    "pageSize": 5,
+    "count": 24,
+    "data": [
+        {
+            "id": 43,
+            "noiDung": "noidung=hoainam10th",
+            "created": "2022-10-02T13:27:04.6655011",
+            "comments": [],
+            "images": [],
+            "userName": null,
+            "displayName": null,
+            "imageUrl": null
+        },
+        {
+            "id": 44,
+            "noiDung": "hoainam10th",
+            "created": "2022-10-02T13:31:29.5630148",
+            "comments": [],
+            "images": [],
+            "userName": null,
+            "displayName": null,
+            "imageUrl": null
+        },
+        {
+            "id": 45,
+            "noiDung": "hoainam10th",
+            "created": "2022-10-02T17:46:59.3963428",
+            "comments": [],
+            "images": [
+                {
+                    "id": 1,
+                    "path": "http://10.0.2.2:5291/images/image_picker780033398581533947.jpg"
+                }
+            ],
+            "userName": "hoainam10th",
+            "displayName": "Nguyễn Hoài Nam",
+            "imageUrl": "http://10.0.2.2:5291/images/post2.jpg"
+        },
+        {
+            "id": 46,
+            "noiDung": null,
+            "created": "2022-10-02T17:49:46.0024565",
+            "comments": [],
+            "images": [
+                {
+                    "id": 2,
+                    "path": "http://10.0.2.2:5291/images/image_picker4830305325689463380.jpg"
+                }
+            ],
+            "userName": "hoainam10th",
+            "displayName": "Nguyễn Hoài Nam",
+            "imageUrl": "http://10.0.2.2:5291/images/post2.jpg"
+        }
+    ]
+}
