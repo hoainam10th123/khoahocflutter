@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net7.0": {
       "Crc32.NET/1.2.0": {
         "type": "package",
         "dependencies": {
@@ -209,42 +209,36 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net7.0": [
       "Crc32.NET >= 1.2.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hoain\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\hoain\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hoain\\source\\repos\\ReactMXHApi6\\AgoraIO\\AgoraIO.csproj",
+      "projectUniqueName": "D:\\Nam\\Github\\khoahocflutter\\ReactMXHApi6\\AgoraIO\\AgoraIO.csproj",
       "projectName": "AgoraIO",
-      "projectPath": "C:\\Users\\hoain\\source\\repos\\ReactMXHApi6\\AgoraIO\\AgoraIO.csproj",
+      "projectPath": "D:\\Nam\\Github\\khoahocflutter\\ReactMXHApi6\\AgoraIO\\AgoraIO.csproj",
       "packagesPath": "C:\\Users\\hoain\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hoain\\source\\repos\\ReactMXHApi6\\AgoraIO\\obj\\",
+      "outputPath": "D:\\Nam\\Github\\khoahocflutter\\ReactMXHApi6\\AgoraIO\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\hoain\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -255,8 +249,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "dependencies": {
           "Crc32.NET": {
             "target": "Package",
@@ -279,7 +273,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

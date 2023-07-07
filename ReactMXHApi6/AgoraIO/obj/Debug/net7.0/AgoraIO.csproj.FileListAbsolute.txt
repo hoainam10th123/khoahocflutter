@@ -1,0 +1,12 @@
+D:\Nam\Github\khoahocflutter\ReactMXHApi6\AgoraIO\bin\Debug\net7.0\AgoraIO.deps.json
+D:\Nam\Github\khoahocflutter\ReactMXHApi6\AgoraIO\bin\Debug\net7.0\AgoraIO.dll
+D:\Nam\Github\khoahocflutter\ReactMXHApi6\AgoraIO\bin\Debug\net7.0\AgoraIO.pdb
+D:\Nam\Github\khoahocflutter\ReactMXHApi6\AgoraIO\obj\Debug\net7.0\AgoraIO.csproj.AssemblyReference.cache
+D:\Nam\Github\khoahocflutter\ReactMXHApi6\AgoraIO\obj\Debug\net7.0\AgoraIO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nam\Github\khoahocflutter\ReactMXHApi6\AgoraIO\obj\Debug\net7.0\AgoraIO.AssemblyInfoInputs.cache
+D:\Nam\Github\khoahocflutter\ReactMXHApi6\AgoraIO\obj\Debug\net7.0\AgoraIO.AssemblyInfo.cs
+D:\Nam\Github\khoahocflutter\ReactMXHApi6\AgoraIO\obj\Debug\net7.0\AgoraIO.csproj.CoreCompileInputs.cache
+D:\Nam\Github\khoahocflutter\ReactMXHApi6\AgoraIO\obj\Debug\net7.0\AgoraIO.dll
+D:\Nam\Github\khoahocflutter\ReactMXHApi6\AgoraIO\obj\Debug\net7.0\refint\AgoraIO.dll
+D:\Nam\Github\khoahocflutter\ReactMXHApi6\AgoraIO\obj\Debug\net7.0\AgoraIO.pdb
+D:\Nam\Github\khoahocflutter\ReactMXHApi6\AgoraIO\obj\Debug\net7.0\ref\AgoraIO.dll

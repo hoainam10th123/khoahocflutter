@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Nam\\Github\\khoahocflutter\\ReactMXHApi6\\ReactMXHApi6\\wwwroot\\Data\\corefx-issues-train.tsv",
+      "PackagePath": "staticwebassets\\Data\\corefx-issues-train.tsv"
+    },
+    {
+      "Id": "D:\\Nam\\Github\\khoahocflutter\\ReactMXHApi6\\ReactMXHApi6\\wwwroot\\MLModels\\PhanLoaiLabelerModel.zip",
+      "PackagePath": "staticwebassets\\MLModels\\PhanLoaiLabelerModel.zip"
+    },
+    {
+      "Id": "D:\\Nam\\Github\\khoahocflutter\\ReactMXHApi6\\ReactMXHApi6\\wwwroot\\images\\netcore.png",
+      "PackagePath": "staticwebassets\\images\\netcore.png"
+    },
+    {
+      "Id": "D:\\Nam\\Github\\khoahocflutter\\ReactMXHApi6\\ReactMXHApi6\\wwwroot\\images\\post2.jpg",
+      "PackagePath": "staticwebassets\\images\\post2.jpg"
+    },
+    {
+      "Id": "D:\\Nam\\Github\\khoahocflutter\\ReactMXHApi6\\ReactMXHApi6\\wwwroot\\images\\user.jpg",
+      "PackagePath": "staticwebassets\\images\\user.jpg"
+    },
+    {
+      "Id": "D:\\Nam\\Github\\khoahocflutter\\ReactMXHApi6\\ReactMXHApi6\\wwwroot\\images\\user0.jpg",
+      "PackagePath": "staticwebassets\\images\\user0.jpg"
+    },
+    {
+      "Id": "D:\\Nam\\Github\\khoahocflutter\\ReactMXHApi6\\ReactMXHApi6\\wwwroot\\images\\user1.jpg",
+      "PackagePath": "staticwebassets\\images\\user1.jpg"
+    },
+    {
+      "Id": "D:\\Nam\\Github\\khoahocflutter\\ReactMXHApi6\\ReactMXHApi6\\wwwroot\\images\\user2.jpg",
+      "PackagePath": "staticwebassets\\images\\user2.jpg"
+    },
+    {
+      "Id": "D:\\Nam\\Github\\khoahocflutter\\ReactMXHApi6\\ReactMXHApi6\\wwwroot\\images\\user3.jpg",
+      "PackagePath": "staticwebassets\\images\\user3.jpg"
+    },
+    {
+      "Id": "D:\\Nam\\Github\\khoahocflutter\\ReactMXHApi6\\ReactMXHApi6\\wwwroot\\images\\user5.jpg",
+      "PackagePath": "staticwebassets\\images\\user5.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ReactMXHApi6.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ReactMXHApi6.props",
+      "PackagePath": "build\\ReactMXHApi6.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ReactMXHApi6.props",
+      "PackagePath": "buildMultiTargeting\\ReactMXHApi6.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ReactMXHApi6.props",
+      "PackagePath": "buildTransitive\\ReactMXHApi6.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
