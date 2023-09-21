@@ -1,0 +1,165 @@
+import 'dart:convert';
+import 'dart:io';
+
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
+import '../../Models/pagination.dart';
+import '../../Utils/const.dart';
+import '../../Models/comment.dart';
+import '../../Utils/global.dart';
+import 'imageAvatar.dart';
+
+class ModalListComment extends StatefulWidget{
+
+  @override
+  State<StatefulWidget> createState() {
+    return ModalListCommentState();
+  }
+}
+
+
+class ModalListCommentState extends State<ModalListComment>{
+  final TextEditingController contentController = TextEditingController();
+
+  @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Material(
+      child: CupertinoPageScaffold(
+        navigationBar: CupertinoNavigationBar(
+            leading: Text('${50} comments',
+              style: const TextStyle(fontWeight: FontWeight.bold),
+            )
+        ),
+        child: Scaffold(
+          bottomSheet: Container(
+              padding: const EdgeInsets.all(5),
+              height: 120,
+              width: double.infinity,
+              color: Colors.white,
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      Expanded(
+                        child: TextField(
+                          controller: contentController,
+                          decoration: InputDecoration(
+                              hintText: "Write message...",
+                              hintStyle: const TextStyle(color: Colors.black),
+                              filled: true,
+                              fillColor: Colors.grey.withOpacity(0.2),
+                              border: OutlineInputBorder(
+                                borderSide: BorderSide.none,
+                                borderRadius: BorderRadius.circular(30),
+                              )
+                          ),
+                        ),
+                      ),
+                      const SizedBox(
+                        width: 5,
+                      ),
+                      FloatingActionButton(
+                        onPressed: () {
+                          //sendComment(contentController.text, widget.postId).then((value) => contentController.clear());
+                        },
+                        backgroundColor: Colors.blue,
+                        elevation: 0,
+                        child: const Icon(
+                          Icons.send,
+                          color: Colors.white,
+                          size: 20,
+                        ),
+                      ),
+                    ],
+                  ),
+                  Expanded(
+                    child: Container(
+                      padding: const EdgeInsets.only(top: 5),
+                      child: ListView.builder(
+                          scrollDirection: Axis.horizontal,
+                          itemCount: iconsCustom.length,
+                          itemBuilder: (context, index) => buildIcons(index)
+                      ),
+                    ),
+                  )
+                ],
+              )
+          ),
+          body: SizedBox(
+            height: MediaQuery.of(context).size.height - 170,
+            child: NotificationListener<ScrollNotification>(
+              onNotification: (ScrollNotification scrollInfo) {
+                if (scrollInfo.metrics.pixels == scrollInfo.metrics.maxScrollExtent) {
+                  
+                }
+                return true;
+              },
+              child: ListView.builder(
+                  itemCount: 3,
+                  itemBuilder: (context, index){
+                    
+                    return buildUserAndComment(context, index);
+                  }
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
+  buildIcons(int index){
+    return GestureDetector(
+      onTap: (){
+        contentController.text += iconsCustom[index];
+      },
+      child: Container(
+        margin: const EdgeInsets.all(3),
+        child: Text(iconsCustom[index], style: const TextStyle(fontSize: 26),),
+      ),
+    );
+  }
+
+  buildUserAndComment(BuildContext context, int index) {
+    return Container(
+      margin: const EdgeInsets.all(5),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          ImageAvatar(maxRadius: 20, imageUrl: comments[index].userImageUrl,),
+          const SizedBox(
+            width: 4,
+          ),
+          Expanded(
+              child: Container(
+                padding: const EdgeInsets.all(10),
+                decoration: BoxDecoration(
+                    color: Colors.grey.withOpacity(0.1),
+                    borderRadius: BorderRadius.circular(15)),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'DisplayName',
+                      style: const TextStyle(fontWeight: FontWeight.bold),
+                    ),
+                    RichText(
+                      text: TextSpan(
+                        text: 'Noi dung',
+                        style: DefaultTextStyle.of(context).style,
+                      ),
+                    ),
+                  ],
+                ),
+              ))
+        ],
+      ),
+    );
+  }
+}

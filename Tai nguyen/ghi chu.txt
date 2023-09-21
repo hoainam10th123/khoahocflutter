@@ -1,0 +1,2 @@
+Nếu build app quá lâu mà không thấy app chạy lên trong máy ảo.
+Lúc này chúng ta chỉ cần wipe data và chạy lại là OK.

@@ -1,0 +1,19 @@
+Source code khoa hoc: https://github.com/hoainam10th123/SocialMediaApp
+
+Icon: https://emojipedia.org/
+😊
+
+https://docs.flutter.dev/development/ui/layout
+
+https://viblo.asia/p/keys-trong-flutter-yMnKM02j57P
+
+https://viblo.asia/p/stream-trong-flutter-E375zQrRlGW
+
+https://cafedev.vn/tu-hoc-flutter-tim-hieu-ve-widget-row-va-column-trong-flutter/
+
+https://200lab.io/blog/kham-pha-stack-va-indexedstack-trong-flutter/
+
+generate token
+https://github.com/AgoraIO/Tools/tree/master/DynamicKey/AgoraDynamicKey
+
+https://github.com/JimSeker/service

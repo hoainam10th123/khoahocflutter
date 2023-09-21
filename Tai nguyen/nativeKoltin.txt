@@ -1,0 +1,40 @@
+
+https://stackoverflow.com/questions/26361052/android-service-not-starting-on-restarting-the-device
+https://developer.android.com/training/scheduling/wakelock
+
+https://openplanning.net/10421/android-service
+
+https://stackoverflow.com/questions/53080186/make-appbar-transparent-and-show-background-image-which-is-set-to-whole-screen
+
+https://learn.microsoft.com/en-us/aspnet/core/signalr/java-client?view=aspnetcore-6.0
+
+
+https://docs.flutter.dev/development/platform-integration/platform-channels?tab=type-mappings-kotlin-tab
+
+
+
+https://developer.android.com/develop/ui/views/notifications/bubbles
+https://developer.android.com/develop/ui/views/picture-in-picture
+https://docs.flutter.dev/development/platform-integration/platform-channels
+
+
+
+https://stackoverflow.com/questions/24771872/how-to-keep-web-socket-connection-active-when-android-app-is-closed
+
+https://stackoverflow.com/questions/71217605/how-to-make-app-in-background-like-chat-head-of-messenger-in-flutter
+
+https://stackoverflow.com/questions/30525784/android-keep-service-running-when-app-is-killed
+
+
+https://damaschin-alexandra.medium.com/passing-variables-from-dart-to-kotlin-and-from-kotlin-to-dart-c07117939cad
+https://github.com/AlexandraDamaschin/Dart-to-kt-ios-and-kt-ios-to-dart
+
+https://stackoverflow.com/questions/56266801/java-net-socketexception-socket-failed-eperm-operation-not-permitted
+
+Your app needs additional permissions and/or to be reinstalled.
+
+Add additional permissions to AndroidManifest.xml within the <manifest> section:
+
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+To reinstall, uninstall the app from the emulator or physical connected device and then run it again. (If adding permissions, make sure to reinstall afterwards.)
