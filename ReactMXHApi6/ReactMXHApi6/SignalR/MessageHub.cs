@@ -107,8 +107,8 @@ namespace ReactMXHApi6.SignalR
                         android_channel_id = _config["OneSignal:AndroidChannelId"],
                         app_id = _config["OneSignal:AppId"],
                         headings = new { en = "Social app", es = "Title Spanish Message" },
-                        contents = new { en = messageBody, es = "Spanish Message body" },
-                        include_player_ids = toIds,
+                        contents = new { en = messageBody, es = messageBody },
+                        include_subscription_ids = toIds,
                         name = "INTERNAL_CAMPAIGN_NAME"
                     };
                     await _oneSignalService.CreateNotification(obj);

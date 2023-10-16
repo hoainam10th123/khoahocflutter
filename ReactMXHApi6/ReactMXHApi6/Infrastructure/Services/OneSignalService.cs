@@ -16,20 +16,20 @@ namespace ReactMXHApi6.Infrastructure.Services
         /// <summary>
         /// Sends notifications to your users
         /// </summary>
-        /// <param name="body">include_player_ids = string[], contents: object, name = INTERNAL_CAMPAIGN_NAME </param>
+        /// <param name="body">include_subscription_ids = string[], contents: object, name = INTERNAL_CAMPAIGN_NAME </param>
         /// <returns>ResultOneSignal</returns>
-        public Task<ResultOneSignal> CreateNotification(object body)
+        public async Task<ResultOneSignal> CreateNotification(object body)
         {
             var json = JsonSerializer.Serialize(body);
-            var client = new RestClient("https://onesignal.com/api/v1/notifications");
-            var request = new RestRequest("", Method.Post);
-            request.AddHeader("Accept", "application/json");
+            var options = new RestClientOptions("https://onesignal.com/api/v1/notifications");
+            var client = new RestClient(options);
+            var request = new RestRequest("");
+            request.AddHeader("accept", "application/json");
             request.AddHeader("Authorization", $"Basic {_config["OneSignal:RestAPI"]}");
-            request.AddHeader("Content-Type", "application/json");
-            request.AddParameter("application/json", json, ParameterType.RequestBody);
-            var response = client.Execute(request);
-
-            return Task.FromResult(new ResultOneSignal((int)response.StatusCode, response.Content!));
+            request.AddJsonBody(json, false);
+            var response = await client.PostAsync(request);
+            Console.WriteLine("{0}", response.Content);
+            return new ResultOneSignal((int)response.StatusCode, response.Content!);
         }
     }
 }
